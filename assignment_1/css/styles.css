@@ -112,7 +112,7 @@ p{
 }
 
 /***** Large Devices Only *****/
-@media(min-width:1200px){
+@media(min-width:992px){
   .box1, .box2, .box3{
 
   }
@@ -134,7 +134,7 @@ p{
 }
 
 /***** Medium Devices Only *****/
-@media(min-width:950px) and (max-width: 1199px){
+@media(min-width:768px) and (max-width: 991px){
   .box1, .box2, .box3{
 
     margin-bottom: 20px;
@@ -153,12 +153,12 @@ p{
 
   .box3{
 
-    width: 92.5%;
+    width: 93%;
   }
 }
 
 /***** Small Devices Only *****/
-@media(min-width:0px) and (max-width: 949px){
+@media(min-width:0px) and (max-width: 767px){
   .box1, .box2, .box3{
 
     margin-bottom: 20px;

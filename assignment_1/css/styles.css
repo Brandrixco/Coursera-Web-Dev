@@ -28,6 +28,9 @@ header{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+   
+ 
+  
 }
 
 .corner{
@@ -60,6 +63,8 @@ header{
   background: #999999;
   border: 3px solid black;
   font-weight: bold;
+  
+  
   
 }
 

@@ -69,7 +69,7 @@ body {
 }
 
 #phone a{ /*Phone Number*/
-  text-align:right;
+  text-align:center;
   padding-bottom: 0;
   
 }
@@ -79,6 +79,71 @@ body {
   text-align: right;
   padding-right: 15px;
 }
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle{
+  margin-top: -30px;
+  clear: both;
+ 
+}
+
+/* END HEADER */
+
+/********** Large Devices Only **********/
+@media (min-width: 1200px){
+
+}
+
+/********** Medium Devices Only **********/
+   /* Header */
+@media (min-width: 992px) and (max-width: 1199px){
+  #logo-img{
+    background: url('../images/restaurant-logo_medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0px;
+  }
+  /* End header */
+}
+
+/********** Small Devices Only **********/
+@media (min-width: 768px) and (max-width: 991px){
+  
+}
+
+/********** Extra-Small Devices Only **********/
+@media (max-width: 767px){
+  /* Header */
+  .navbar-brand{
+    padding-top: 10px;
+    height: 80px;
+  }
+
+  .navbar-brand h1{ /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; 
+  }
+
+  .navbar-brand p{ /* Kosher Certification */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+
+  .navbar-brand p img{ /* Star-K*/
+    height: 20px;
+  }
+
+  #collapsable-nav a{
+    font-size: 1.2em;
+  }  
+
+}
+
+
+
 
 
 

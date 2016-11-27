@@ -1,0 +1,120 @@
+@font-face {
+    font-family: Market_Deco;
+    src: url(../fonts/Market_Deco.ttf);
+}
+
+body{
+  padding-top: 80px; 
+  background-color:#f1cb63;
+}
+
+.navbar navbar-default navbar-fixed-top{
+ border: black;
+ 
+ 
+}
+
+#navbarContainer{
+  background-color: #1a1002;
+   font-family: Market_Deco
+  
+  
+}
+
+.navbar-header .navbar-brand{
+  color: white;
+  font-family: Market_Deco
+  
+}
+
+.container-fluid{
+ 
+
+}
+
+
+
+#main-content{
+ padding: 0;
+ 
+
+}
+
+#main-content h1{
+ padding: 0;
+ text-align: center;
+ margin-top: 80px;
+ width: 100%;
+ color: #1a1002;
+  font-family: Market_Deco;
+ 
+}
+
+
+
+.row{
+
+}
+
+#home-tiles{
+  
+}
+
+#chicken-tile, #beef-tile, #sushi-tile{
+  height: 450px;
+  margin-top: 80px;
+  position: relative; 
+  border: 2px solid #3f0c1f;
+  border-radius: 5px;
+  text-align: center;
+  overflow: hidden;
+  background-color:#ad7243;
+  box-shadow: 0 0 5px black; 
+  padding-top: 20px;
+  font-family: Market_Deco
+}
+
+.menuHeader{
+position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #1a1002;
+  color: white; 
+  height: 50px;
+  font-family: Market_Deco
+  
+}
+
+.menuFooter{
+position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #1a1002;
+  color: white; 
+  height: 10px;
+  
+}
+
+#chicken-tile:hover, #beef-tile:hover, #sushi-tile:hover{
+ box-shadow: 0 0 30px black; 
+ 
+}
+
+.menuDescription{
+  margin-top: 50px;
+  
+}
+
+
+
+
+
+

@@ -27,10 +27,11 @@ body{
   
 }
 
-.container-fluid{
- 
-
+#nav-list a{
+  text-align: center;
 }
+
+
 
 
 
@@ -42,36 +43,38 @@ body{
 
 #main-content h1{
  padding: 0;
- text-align: center;
  margin-top: 80px;
  width: 100%;
  color: #1a1002;
-  font-family: Market_Deco;
+ font-family: Market_Deco;
  
 }
 
-
-
 .row{
+word-wrap: break-word; 
 
-}
-
-#home-tiles{
-  
 }
 
 #chicken-tile, #beef-tile, #sushi-tile{
-  height: 450px;
+  height: 800px;
   margin-top: 80px;
   position: relative; 
-  border: 2px solid #3f0c1f;
+  border: 2px solid #1a1002;
   border-radius: 5px;
   text-align: center;
-  overflow: hidden;
-  background-color:#ad7243;
+   background-color:#ad7243;
   box-shadow: 0 0 5px black; 
   padding-top: 20px;
+  color: #1a1002;
   font-family: Market_Deco
+ 
+  
+}
+
+#chicken-tile p, #beef-tile p, #sushi-tile p{
+  padding-right: 10px;
+  padding-left: 10px;
+  
 }
 
 .menuHeader{
@@ -79,7 +82,6 @@ position: absolute;
   top: 0;
   right: 0;
   width: 100%;
-  text-align: center;
   font-size: 1.6em;
   text-transform: uppercase;
   background-color: #1a1002;
@@ -87,6 +89,12 @@ position: absolute;
   height: 50px;
   font-family: Market_Deco
   
+}
+
+.menuHeader p{
+  display: flex; 
+  justify-content: center;
+  margin-top: 10px;
 }
 
 .menuFooter{
@@ -112,6 +120,26 @@ position: absolute;
   margin-top: 50px;
   
 }
+
+#footer{
+  height: 50px;
+  border-top: 1px solid white;
+  margin-top: 100px;
+  background-color: #1a1002;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+#footer p{
+  font-size: 20px;
+  color: white;
+  font-family: Market_Deco;
+
+}
+
 
 
 

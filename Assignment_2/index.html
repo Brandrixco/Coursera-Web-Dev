@@ -19,7 +19,7 @@
            <a class="navbar-brand" href="#">Food, LLC</a>
           
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
-          data-target="#collapsable-nav" aria-expanded="false">
+          data-target="#collapsable-nav" aria-expanded="false" class="visible-xs">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span> 
@@ -29,19 +29,19 @@
         <!-- Start Of collapsed Nav--> 
          <div id="collapsable-nav" class="collapse navbar-collapse">
            <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li>
+            <li class="visible-xs">
               <a href="menu-categories.html">
-                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Chicken</a>
+                <span class="glyphicon glyphicon-cutlery"></span><br>Chicken</a>
             </li>
 
-            <li>
+            <li class="visible-xs">
               <a href="menu-categories.html">
-                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Beef</a>
+                <span class="glyphicon glyphicon-cutlery"></span><br>Beef</a>
             </li>
 
-            <li>
+            <li  class="visible-xs">
               <a href="menu-categories.html">
-                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Sushi</a>
+                <span class="glyphicon glyphicon-cutlery"></span><br>Sushi</a>
             </li>
            </ul> 
 
@@ -51,22 +51,23 @@
      <!-- Start of the grid system--> 
      <div id="main-content" class="container">
       
-      <h1>Menu</h1>
+      <h1 class="text-center">Menu</h1>
 
       
       <div id="home-tiles" class="row">
         
        <div class="col-md-4 col-sm-6 col-xs-12">
-         <div id="chicken-tile"><span class="menuHeader">Menu</span><span class="menuFooter"></span>
+         <div id="chicken-tile"><div class="menuHeader"><p>Chicken</p></div>
            <div class="menuDescription">
-            hjsdhflhsdfighgsjdhfglkkjhsdflkjgh
+            <p>makhsdgfhagsdjfhgasdhf
+            </p>
           </div>
           
          </div>  
       </div>    
 
       <div class="col-md-4 col-sm-6 col-xs-12">
-         <div id="beef-tile"><span class="menuHeader">Menu</span><span class="menuFooter"></span>
+         <div id="beef-tile"><div class="menuHeader"><p>Beef</p></div>
            <div class="menuDescription">
             hjsdhflhsdfighgsjdhfglkkjhsdflkjgh
           </div>
@@ -74,7 +75,7 @@
       </div>   
 
       <div class="col-md-4 col-sm-6 col-xs-12">
-         <div id="sushi-tile"><span class="menuHeader">Menu</span><span class="menuFooter"></span>
+         <div id="sushi-tile"><div class="menuHeader"><p>Sushi</p></div>
           <div class="menuDescription">
             hjsdhflhsdfighgsjdhfglkkjhsdflkjgh
           </div>
@@ -83,6 +84,13 @@
       
       </div> <!-- end of home tiles -->
      </div> <!-- End of main content -->
+
+     <div id="footer">
+       <p>Brandon Plourde</p>
+     </div>  
+
+      
+        
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
